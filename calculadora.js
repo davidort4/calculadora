@@ -62,13 +62,3 @@ function calcular(){
     pantalla.value = resultado;
 
 }
-//definimos una funcion para el porcentaje
-function porcentaje() {
-
-    segundoNumero = Number(pantalla.value);
-    limpiarPantalla();
-    resultado = primerNumero * (segundoNumero/100);
-    pantalla.value = resultado;
-
-
-}
